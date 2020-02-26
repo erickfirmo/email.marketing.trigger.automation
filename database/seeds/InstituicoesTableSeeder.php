@@ -20,8 +20,8 @@ class InstituicoesTableSeeder extends Seeder
         $instituicao->codigo_da_empresa = $codigos['UMESP'];
         $instituicao->remetente_do_email = 'Universidade Metodista de São Paulo';
         $instituicao->remetente_do_sms = 'METODISTA';
-        $instituicao->email_do_remetente = 'informes@metodista.br';
-        $instituicao->email_de_retorno = 'informes@metodista.br';
+        $instituicao->email_do_remetente = 'informes@domain.br';
+        $instituicao->email_de_retorno = 'informes@domain.br';
         $instituicao->save();
 
         $instituicao = new App\Instituicao;
@@ -30,8 +30,8 @@ class InstituicoesTableSeeder extends Seeder
         $instituicao->codigo_da_empresa = $codigos['UMESP'];
         $instituicao->remetente_do_email = 'Universidade Metodista de São Paulo';
         $instituicao->remetente_do_sms = 'EDUCACAO METODISTA';
-        $instituicao->email_do_remetente = 'informes@metodista.br';
-        $instituicao->email_de_retorno = 'informes@metodista.br';
+        $instituicao->email_do_remetente = 'informes@domain.br';
+        $instituicao->email_de_retorno = 'informes@domain.br';
         $instituicao->save();
 
         $instituicao = new App\Instituicao;
@@ -40,8 +40,8 @@ class InstituicoesTableSeeder extends Seeder
         $instituicao->codigo_da_empresa = $codigos['UNIMEP'];
         $instituicao->remetente_do_email = 'Universidade Metodista de Piracicaba';
         $instituicao->remetente_do_sms = 'UNIMEP';
-        $instituicao->email_do_remetente = 'unimep@metodista.br';
-        $instituicao->email_de_retorno = 'unimep@metodista.br';
+        $instituicao->email_do_remetente = 'informes@domain.br';
+        $instituicao->email_de_retorno = 'informes@domain.br';
         $instituicao->save();
 
         $instituicao = new App\Instituicao;
@@ -50,8 +50,8 @@ class InstituicoesTableSeeder extends Seeder
         $instituicao->codigo_da_empresa = $codigos['UNIMEP'];
         $instituicao->remetente_do_email = 'Universidade Metodista de Piracicaba';
         $instituicao->remetente_do_sms = 'EDUCACAO METODISTA';
-        $instituicao->email_do_remetente = 'unimep@metodista.br';
-        $instituicao->email_de_retorno = 'unimep@metodista.br';
+        $instituicao->email_do_remetente = 'informes@domain.br';
+        $instituicao->email_de_retorno = 'informes@domain.br';
         $instituicao->save();
 
         $instituicao = new App\Instituicao;
@@ -60,8 +60,8 @@ class InstituicoesTableSeeder extends Seeder
         $instituicao->codigo_da_empresa = $codigos['IZABELA'];
         $instituicao->remetente_do_email = 'Centro Universitário Metodista Izabela Hendrix';
         $instituicao->remetente_do_sms = 'IZABELA';
-        $instituicao->email_do_remetente = 'informes.imih@izabelahendrix.metodista.br';
-        $instituicao->email_de_retorno = 'informes.imih@izabelahendrix.metodista.br';
+        $instituicao->email_do_remetente = 'informes@domain.br';
+        $instituicao->email_de_retorno = 'informes@domain.br';
         $instituicao->save();
 
         $instituicao = new App\Instituicao;
@@ -70,8 +70,8 @@ class InstituicoesTableSeeder extends Seeder
         $instituicao->codigo_da_empresa = $codigos['IZABELA'];
         $instituicao->remetente_do_email = 'Centro Universitário Metodista Izabela Hendrix';
         $instituicao->remetente_do_sms = 'EDUCACAO METODISTA';
-        $instituicao->email_do_remetente = 'informes.imih@izabelahendrix.metodista.br';
-        $instituicao->email_de_retorno = 'informes.imih@izabelahendrix.metodista.br';
+        $instituicao->email_do_remetente = 'informes@domain.br';
+        $instituicao->email_de_retorno = 'informes@domain.br';
         $instituicao->save();
 
         $instituicao = new App\Instituicao;
@@ -80,8 +80,8 @@ class InstituicoesTableSeeder extends Seeder
         $instituicao->codigo_da_empresa = $codigos['GRANBERY'];
         $instituicao->remetente_do_email = 'Faculdade Metodista Granbery';
         $instituicao->remetente_do_sms = 'GRANBERY';
-        $instituicao->email_do_remetente = 'informes.granbery@granbery.metodista.br';
-        $instituicao->email_de_retorno = 'informes.granbery@granbery.metodista.br';
+        $instituicao->email_do_remetente = 'informes@domain.br';
+        $instituicao->email_de_retorno = 'informes@domain.br';
         $instituicao->save();
 
         $instituicao = new App\Instituicao;
@@ -90,8 +90,8 @@ class InstituicoesTableSeeder extends Seeder
         $instituicao->codigo_da_empresa = $codigos['GRANBERY'];
         $instituicao->remetente_do_email = 'Faculdade Metodista Granbery';
         $instituicao->remetente_do_sms = 'EDUCACAO METODISTA';
-        $instituicao->email_do_remetente = 'informes.granbery@granbery.metodista.br';
-        $instituicao->email_de_retorno = 'informes.granbery@granbery.metodista.br';
+        $instituicao->email_do_remetente = 'informes@domain.br';
+        $instituicao->email_de_retorno = 'informes@domain.br';
         $instituicao->save();
 
         $instituicao = new App\Instituicao;
@@ -100,8 +100,8 @@ class InstituicoesTableSeeder extends Seeder
         $instituicao->codigo_da_empresa = $codigos['CENTENARIO'];
         $instituicao->remetente_do_email = 'Faculdade Metodista Centenário';
         $instituicao->remetente_do_sms = 'CENTENARIO';
-        $instituicao->email_do_remetente = 'informes.centenario@centenario.metodista.br';
-        $instituicao->email_de_retorno = 'informes.centenario@centenario.metodista.br';
+        $instituicao->email_do_remetente = 'informes@domain.br';
+        $instituicao->email_de_retorno = 'informes@domain.br';
         $instituicao->save();
 
         $instituicao = new App\Instituicao;
@@ -110,8 +110,8 @@ class InstituicoesTableSeeder extends Seeder
         $instituicao->codigo_da_empresa = $codigos['CENTENARIO'];
         $instituicao->remetente_do_email = 'Faculdade Metodista Centenário';
         $instituicao->remetente_do_sms = 'EDUCACAO METODISTA';
-        $instituicao->email_do_remetente = 'informes.centenario@centenario.metodista.br';
-        $instituicao->email_de_retorno = 'informes.centenario@centenario.metodista.br';
+        $instituicao->email_do_remetente = 'informes@domain.br';
+        $instituicao->email_de_retorno = 'informes@domain.br';
         $instituicao->save();
 
         $instituicao = new App\Instituicao;
@@ -120,8 +120,8 @@ class InstituicoesTableSeeder extends Seeder
         $instituicao->codigo_da_empresa = $codigos['IPA'];
         $instituicao->remetente_do_email = 'Centro Universitário Metodista IPA';
         $instituicao->remetente_do_sms = 'IPA';
-        $instituicao->email_do_remetente = 'comunicados@ipa.metodista.br';
-        $instituicao->email_de_retorno = 'comunicados@ipa.metodista.br';
+        $instituicao->email_do_remetente = 'informes@domain.br';
+        $instituicao->email_de_retorno = 'informes@domain.br';
         $instituicao->save();
 
         $instituicao = new App\Instituicao;
@@ -130,8 +130,8 @@ class InstituicoesTableSeeder extends Seeder
         $instituicao->codigo_da_empresa = $codigos['IPA'];
         $instituicao->remetente_do_email = 'Centro Universitário Metodista IPA';
         $instituicao->remetente_do_sms = 'EDUCACAO METODISTA';
-        $instituicao->email_do_remetente = 'comunicados@ipa.metodista.br';
-        $instituicao->email_de_retorno = 'comunicados@ipa.metodista.br';
+        $instituicao->email_do_remetente = 'informes@domain.br';
+        $instituicao->email_de_retorno = 'informes@domain.br';
         $instituicao->save();
     }
 }
